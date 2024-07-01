@@ -32,4 +32,4 @@ The aim of this code is to perform a basic port scanning operation. This involve
 - Service Monitoring: Ensure critical services are up and running by verifying their respective ports are open.
 - Pre-emptive Security: Identify and close open ports that are not required, reducing potential attack vectors.
 
-By performing these actions, the code helps in maintaining and securing network systems, making it a valuable tool for administrators, security professionals, and ethica
+By performing these actions, the code helps in maintaining and securing network systems, making it a valuable tool for administrators, security professionals, and ethical hackers.
