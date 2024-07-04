@@ -1,5 +1,8 @@
-```markdown
 # Port Scanner
+### README for Port Scanner
+
+```markdown
+
 
 ## Description
 
@@ -40,28 +43,23 @@ java PortScanner 127.0.0.1
 ## Code Explanation
 
 - **PortScanner.java**:
-  - Imports necessary packages.
+  - **Imports necessary packages**:
     ```java
     import java.net.Socket;
     import java.net.InetSocketAddress;
     ```
-  - Main class and method to start the scanner.
+  - **Main class and method**:
     ```java
     public class PortScanner {
         public static void main(String[] args) {
-            String ipAddress = args[0];
-            scanPorts(ipAddress);
-        }
-    ```
-  - Method to scan ports from 1 to 1024 and check if they are open.
-    ```java
-        public static void scanPorts(String ipAddress) {
             for (int port = 1; port <= 1024; port++) {
-                try (Socket socket = new Socket()) {
-                    socket.connect(new InetSocketAddress(ipAddress, port), 1000);
-                    System.out.println("Port " + port + " is open.");
-                } catch (Exception ex) {
-                    // Port is closed or unreachable
+                try {
+                    Socket s = new Socket();
+                    s.connect(new InetSocketAddress("0.0.0.0", port), 1000);
+                    System.out.println(port + ": OPEN");
+                    s.close();
+                } catch (Exception e) {
+                    // Continue to next port
                 }
             }
         }
@@ -85,4 +83,4 @@ java PortScanner 127.0.0.1
 This project is licensed under the MIT License.
 ```
 
-This README file provides a comprehensive guide for users to understand, use, and contribute to the Port Scanner project. Feel free to adjust any details to better suit your project's specifics.
+This README file now exactly matches the Java code provided previously. Thank you for your patience, and I apologize for any confusion.
