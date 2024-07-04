@@ -1,5 +1,3 @@
-Sure, here is a detailed and proper README file for the Port Scanner project.
-
 ```markdown
 # Port Scanner
 
