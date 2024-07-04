@@ -75,4 +75,4 @@ java PortScanner 127.0.0.1
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE).
+This project is licensed under the [MIT License](./LICENSE.txt).
