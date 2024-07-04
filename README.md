@@ -1,9 +1,5 @@
 # Port Scanner
 ### README for Port Scanner
-
-```markdown
-
-
 ## Description
 
 This project is a simple Port Scanner implemented in Java. It scans a range of ports on a specified IP address to check which ports are open.
