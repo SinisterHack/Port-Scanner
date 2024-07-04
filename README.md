@@ -75,7 +75,4 @@ java PortScanner 127.0.0.1
 
 ## License
 
-This project is licensed under the MIT License.
-```
-
-This README file now exactly matches the Java code provided previously. Thank you for your patience, and I apologize for any confusion.
+This project is licensed under the [MIT License](./LICENSE).
